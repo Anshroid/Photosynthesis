@@ -124,7 +124,7 @@ while running:
     texts.draw(screen)
 
     # Draw in glucose
-    text = glucose_font.render("C₆H₁₂O₆ (You want this!):" + str(int(glucose)) + "mol", True, GLUCOSE)
+    text = glucose_font.render("C₆H₁₂O₆:" + str(int(glucose)) + "mol", True, GLUCOSE)
     screen.blit(text, (0, 0))
 
     # Update glucose level
